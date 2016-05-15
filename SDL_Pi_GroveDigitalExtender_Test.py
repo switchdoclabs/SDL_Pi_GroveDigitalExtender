@@ -41,7 +41,7 @@ GDE.setDirectionGPIOChannel(2, GDE.OUTPUT)
 #GDE.setDirectionGPIOChannel(5, GDE.OUTPUT)  
 #GDE.setDirectionGPIOChannel(6, GDE.OUTPUT)  
 #GDE.setDirectionGPIOChannel(7, GDE.OUTPUT)  
-GDE.setPullupGPIOChannel(0, GDE.SDL_Pi_GroveDigitalExtender_ON)
+#GDE.setPullupGPIOChannel(0, GDE.SDL_Pi_GroveDigitalExtender_ON)
 #GDE.setPulldownGPIOChannel(0, GDE.SDL_Pi_GroveDigitalExtender_ON)
 
 #GDE.setInterruptMaskGPIOChannel(1, GDE.SDL_Pi_GroverDigitalExtender_ON)
