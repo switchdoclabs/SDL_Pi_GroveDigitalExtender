@@ -59,26 +59,26 @@ while True:
     
     	print("----------------")
     	GDE.writeGPIO(0,random.randint(0,1));
-    	GDE.writeGPIO(1,random.randint(0,1));
+    	#GDE.writeGPIO(1,random.randint(0,1));
     	GDE.writeGPIO(2,random.randint(0,1));
-    	GDE.writeGPIO(3,random.randint(0,1));
-    	GDE.writeGPIO(4,random.randint(0,1));
-    	GDE.writeGPIO(5,random.randint(0,1));
-    	GDE.writeGPIO(6,random.randint(0,1));
-    	GDE.writeGPIO(7,random.randint(0,1));
+    	#GDE.writeGPIO(3,random.randint(0,1));
+    	#GDE.writeGPIO(4,random.randint(0,1));
+    	#GDE.writeGPIO(5,random.randint(0,1));
+    	#GDE.writeGPIO(6,random.randint(0,1));
+    	#GDE.writeGPIO(7,random.randint(0,1));
 	
     	time.sleep(0.02)
     	print("++++++++++++++")
    	 
     	GDE.writeGPIO(0,random.randint(0,1))
-    	GDE.writeGPIO(1,random.randint(0,1));
+    	#GDE.writeGPIO(1,random.randint(0,1));
     	GDE.writeGPIO(2,random.randint(0,1));
-    	GDE.writeGPIO(3,random.randint(0,1));
-    	GDE.writeGPIO(4,random.randint(0,1));
-    	GDE.writeGPIO(5,random.randint(0,1));
-    	GDE.writeGPIO(6,random.randint(0,1));
-    	GDE.writeGPIO(7,random.randint(0,1));
-    	value = GDE.readGPIO(0)
+    	#GDE.writeGPIO(3,random.randint(0,1));
+    	#GDE.writeGPIO(4,random.randint(0,1));
+    	#GDE.writeGPIO(5,random.randint(0,1));
+    	#GDE.writeGPIO(6,random.randint(0,1));
+    	#GDE.writeGPIO(7,random.randint(0,1));
+    	value = GDE.readGPIO(1)
     	print("GPIO Value =",value)
     	time.sleep(0.02)
     	print("----------------")
@@ -90,26 +90,26 @@ while True:
     
     	print("----------------")
     	GDE.writeGPIO(0,1);
-    	GDE.writeGPIO(1,1);
+    	#GDE.writeGPIO(1,1);
     	GDE.writeGPIO(2,1);
-    	GDE.writeGPIO(3,1);
-    	GDE.writeGPIO(4,1);
-    	GDE.writeGPIO(5,1);
-    	GDE.writeGPIO(6,1);
-    	GDE.writeGPIO(7,1);
+    	#GDE.writeGPIO(3,1);
+    	#GDE.writeGPIO(4,1);
+    	#GDE.writeGPIO(5,1);
+    	#GDE.writeGPIO(6,1);
+    	#GDE.writeGPIO(7,1);
 	
     	time.sleep(0.02)
     	print("++++++++++++++")
    	 
     	GDE.writeGPIO(0,0)
-    	GDE.writeGPIO(1,0);
+    	#GDE.writeGPIO(1,0);
     	GDE.writeGPIO(2,0);
-    	GDE.writeGPIO(3,0);
-    	GDE.writeGPIO(4,0);
-    	GDE.writeGPIO(5,0);
-    	GDE.writeGPIO(6,0);
-    	GDE.writeGPIO(7,0);
-    	value = GDE.readGPIO(0)
+    	#GDE.writeGPIO(3,0);
+    	#GDE.writeGPIO(4,0);
+    	#GDE.writeGPIO(5,0);
+    	#GDE.writeGPIO(6,0);
+    	#GDE.writeGPIO(7,0);
+    	value = GDE.readGPIO(1)
     	print("GPIO Value =",value)
     	time.sleep(0.02)
     	print("----------------")
